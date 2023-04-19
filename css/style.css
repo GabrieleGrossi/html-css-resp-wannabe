@@ -135,5 +135,36 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-        
+        *,
+    *::before,
+    *::after{
+        margin: 0 auto;
+    }
+    body{
+        font-size-adjust: 0.65;
+    }
+
+    .container{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .lessons .col{
+        width: 100%;
+    }
+    
+    p{
+        margin-bottom: 5rem;
+    }
+
+    .steps .col{
+        width: 100%;
+    }
+
+    .why-us{
+        background-color: #222222;
+    }
 }
