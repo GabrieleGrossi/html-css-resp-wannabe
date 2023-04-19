@@ -159,7 +159,9 @@ img {
     p{
         margin-bottom: 5rem;
     }
-
+    .steps{
+        margin-bottom: 0;
+    }
     .steps .col{
         width: 100%;
     }
@@ -170,5 +172,12 @@ img {
 
     .why-us .col{
         width: 100%;
+    }
+
+    .why-us .container .text-center{
+        padding-top: 5rem;
+    }
+    .why-us .container .col-left img{
+        padding-bottom: 5rem;
     }
 }
